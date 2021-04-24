@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-
+//Programa que recebe 2 pontos de um retangulo, ponto superior esquerdo e ponto inferior direito 
 //Definicao estrutura ponto, para receber float y e x 
 typedef struct ponto {
     float x;
