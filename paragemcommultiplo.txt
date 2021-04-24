@@ -1,0 +1,14 @@
+//do...While()
+
+#include <stdio.h>
+
+
+void main(){
+   int num;
+   do{
+       printf("insira um numero: ");
+       scanf("%d", &num);
+       printf("O quadrado de %d eh: %d.\n", num, num*num);
+    }while(num % 6 != 0);
+    
+}
